@@ -246,7 +246,7 @@ fieldset {
   padding: 72px 0;
 }
 
-@media screen and (min-resolution: 2x) {
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -306,7 +306,7 @@ fieldset {
   }
 }
 
-@media screen and (min-resolution: 2x) {
+@media screen and (min-width: 768px) and (max-width: 1157px) and (min-resolution: 2x) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -328,7 +328,7 @@ fieldset {
   }
 }
 
-@media screen and (min-resolution: 2x) {
+@media screen and (min-width: 1158px) and (min-resolution: 2x) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -578,11 +578,11 @@ fieldset {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 280px;
+  height: 288px;
 }
 
 .portfolio-img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   object-fit: none;
   object-position: top left;
